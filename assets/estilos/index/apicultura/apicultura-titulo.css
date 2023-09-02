@@ -1,0 +1,12 @@
+.apicultura-titulo {
+    font-family: 'PPNeueWorld-regular';
+    letter-spacing: 5px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 2px dashed black;
+}
+
+@font-face {
+    font-family: 'PPNeueWorld-regular';
+    src: url(../../../fonts/PPNeueWorld-Regular.otf);
+}

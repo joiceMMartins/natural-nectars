@@ -1,0 +1,10 @@
+.menu-navegacao {
+    display: flex;
+    align-items: center;
+    background-color: #fdfde9;
+    width: 95%;
+    height: 80px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: space-around;
+}

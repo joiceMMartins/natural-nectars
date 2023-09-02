@@ -1,0 +1,19 @@
+.titulo-pagina {
+    font-family: 'PPNeueWorld-ultra';
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 6rem;
+    color: #fdfde9;
+    text-shadow: 2px 3px 0px black;
+}
+
+@font-face {
+    font-family: 'PPNeueWorld-ultra';
+    src: url(../../fonts/PPNeueWorld-SemiCondensedUltrabold.otf);
+}
+
+@media screen and (max-width: 480px) {
+    .titulo-pagina {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+.menu-navegacao-lista__item {
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GT-Eest-regular';
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "GT-Eest-regular";
+    src: url(../../fonts/GT-Eesti-Text-Regular-Italic-Trial.woff2);
+}

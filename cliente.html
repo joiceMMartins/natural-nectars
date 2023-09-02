@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <title>Cliente</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="cabecalho-container-icone-titulo">
+            <img class="cabecalho__icone" src="assets/imagens/dog-food.png">
+            <h1 class="cabecalho__titulo">
+                Minha Loja Pet
+            </h1>
+        </div>
+
+        <nav class="menu-navegacao">
+            <ul class="menu-navegacao__lista">
+                <li class="menu-navegacao__lista-item">
+                    <a href="#" class="menu-navegacao__lista-item-link">
+                        Nossa loja
+                    </a>
+                </li>
+                <li class="menu-navegacao__lista-item">
+                    <a href="seus-dados.html" class="menu-navegacao__lista-item-link">
+                        Seus dados
+                    </a>
+                </li>
+                <li class="menu-navegacao__lista-item">
+                    <a href="#" class="menu-navegacao__lista-item-link">
+                        Contato
+                    </a>
+                </li>
+                <li class="menu-navegacao__lista-item">
+                    <a href="trabalhe-conosco.html" class="menu-navegacao__lista-item-link">
+                        Trabalhe conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="seus-dados">
+        <h1 class="seus-dados__titulo">
+            Bem-vindo(a)!
+        </h1>
+        <h2 class="seus-dados__subtitulo">
+            Preencha o formulário abaixo:
+        </h2>
+
+        <form action="" class="formulario">
+
+            <fieldset class="dados-pessoais">
+                <div class="dados-pessoais__div">
+                    <legend class="dados-pessoais__legend">
+                        Dados pessoais
+                    </legend>
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="nome">
+                            Nome:
+                        </label>
+                    </div>
+                    <input type="text" name="nome" id="nome" autofocus>
+                </div>
+                
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="sobrenome">Sobrenome:
+                        </label>
+                    </div>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label>Nascimento:   
+                        </label>
+                    </div>
+                    <input type="date">
+                 </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="rg">RG:
+                        </label>
+                    </div>
+                    <input type="text" name="rg" id="rg" size="13" maxlength="13" placeholder="xxxxxxxx">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label>CPF:
+                        </label>
+                    </div>
+                    <div class="container-cpf">
+                        <input type="text" name="cpf" class="input-cpf-9" id="cpf size="9" maxlength="9"" placeholder="xxx.xxx.xxx"> - 
+                        <input type="text" name="cpf2" class="input-cpf-2" id="cpf-final" size="2" maxlength="2" placeholder="xx">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="dados-endereco">
+                <div  class="dados-endereco__div">
+                    <legend  class="dados-endereco__legend">
+                        Dados de endereço
+                    </legend>
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="rua">Rua:
+                        </label>
+                    </div>
+                    <input type="text" id="rua" name="rua">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="numero">Número:
+                        </label>
+                    </div>
+                    <input type="text" id="numero" name="numero">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="bairro">Bairro:
+                        </label>
+                    </div>
+                    <input type="text" id="bairro" name="bairro">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="estado">Estado:
+                        </label>
+                    </div>
+                    <select class="select-estado" name="estado" id="estado">
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="se">Sergipe</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="to">Tocantins</option>
+                        </select>
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="cidade">Cidade:
+                        </label>
+                    </div>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="cep">CEP:
+                        </label>
+                    </div>
+                    <div class="container-cep">
+                        <input type="text" name="cep" id="cep" size="5" maxlength="5" placeholder="xxxxx"> -
+                        <input type="text" name="cep2" id="cep2" size="3" maxlength="3" placeholder="xxx">
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset class="dados-login">
+                <div class="dados-login__div">
+                    <legend class="dados-login__legend">
+                        Dados de login
+                    </legend>
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="email">E-mail:
+                        </label>
+                    </div>
+                    <input type="text" name="email" id="email" placeholder="exemplo@email.com">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="login-usuario">Login:
+                        </label>
+                    </div>
+                    <input type="text" name="login0usuario" id="login-usuario">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="senha">Senha:
+                        </label>
+                    </div>
+                    <input type="password" name="senha" id="senha">
+                </div>
+
+                <div class="container-label-input">
+                    <div class="container-label">
+                        <label for="confirma-senha" class="confirma-senha">Confirme a senha:
+                        </label>
+                    </div>
+                    <input type="password" name="confirma-senha" id="confirma-senha">
+                </div>
+
+            </fieldset>
+
+            <div class="botoes">
+                <div class="container-botoes">
+                    <div class="container-botao-enviar">
+                        <input type="submit" class="botao-enviar">
+                    </div>
+                    <div class="container-botao-limpar">
+                        <input type="button" value="Limpar" class="botao-limpar">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+.lista-produtos-abelha__item {
+    font-family: "GT-Eest-regular";
+
+}
+
+@font-face {
+    font-family: "GT-Eest-regular";
+    src: url(../../../fonts/GT-Eesti-Text-Regular-Italic-Trial.woff2);
+}
