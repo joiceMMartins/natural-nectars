@@ -1,0 +1,8 @@
+.nossos-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #3f2509;
+}

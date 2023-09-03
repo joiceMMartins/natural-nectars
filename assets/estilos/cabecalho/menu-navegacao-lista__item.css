@@ -7,6 +7,16 @@
     text-transform: uppercase;
 }
 
+.menu-navegacao-lista__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-navegacao-lista__item a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 @font-face {
     font-family: "GT-Eest-regular";
     src: url(../../fonts/GT-Eesti-Text-Regular-Italic-Trial.woff2);

@@ -1,0 +1,6 @@
+.container-produto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+}
