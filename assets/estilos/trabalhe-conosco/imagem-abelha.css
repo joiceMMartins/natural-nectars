@@ -1,0 +1,9 @@
+.imagem-abelha {
+    width: 30%;
+    height: 100%;
+    background-image: url(../../imagens/bees-4126065_1280.jpg);
+    background-size: cover;
+    background-position: right center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

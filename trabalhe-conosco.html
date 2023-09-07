@@ -4,47 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@1,400;1,600&display=swap"
-        rel="stylesheet">
+
+    <!-- Estilo body -->
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/body.css">
+
+    <!-- Estilo cabeçalho -->
+    <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao-lista.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho-img.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao-lista__item.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/container-titulo.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/titulo-pagina.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/header.css">
+
+    <!-- Estilo container-imagem-e-formulario -->
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/formulario.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/main.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-imagem-e-formulario.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/imagem-abelha.css">   
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/fieldset.css">  
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/legend.css">  
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-formulario.css">  
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-label-input.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-label.css">  
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-input.css"> 
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/input-textarea.css"> 
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-submit.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/trabalhe-conosco__titulo.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/label.css">
+
+    <!-- Estilo rodapé-->
+    <link rel="stylesheet" href="assets/estilos/rodape/rodape.css">
+    <link rel="stylesheet" href="assets/estilos/rodape/container-rodape.css">
+
+
     <title>Trabalhe conosco</title>
 
 </head>
 
 <body>
-   
-    <header class="cabecalho">
-        <div class="cabecalho-container-icone-titulo">
-            <img class="cabecalho__icone" src="assets/imagens/dog-food.png">
-            <h1 class="cabecalho__titulo">
-                Minha Loja Pet
-            </h1>
-        </div>
 
+    <header>
         <nav class="menu-navegacao">
-            <ul class="menu-navegacao__lista">
-                <li class="menu-navegacao__lista-item">
-                    <a href="#" class="menu-navegacao__lista-item-link">
-                        Nossa loja
-                    </a>
-                </li>
-                <li class="menu-navegacao__lista-item">
-                    <a href="seus-dados.html" class="menu-navegacao__lista-item-link">
-                        Seus dados
-                    </a>
-                </li>
-                <li class="menu-navegacao__lista-item">
-                    <a href="#" class="menu-navegacao__lista-item-link">
-                        Contato
-                    </a>
-                </li>
-                <li class="menu-navegacao__lista-item">
-                    <a href="trabalhe-conosco.html" class="menu-navegacao__lista-item-link">
-                        Trabalhe conosco
-                    </a>
-                </li>
+            <img src="assets/imagens/bee.png" class="cabecalho-img">
+            <ul class="menu-navegacao-lista">
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="cliente.html">Cliente</a></li>
+                <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
             </ul>
         </nav>
     </header>
@@ -52,98 +60,111 @@
     <main class="trabalhe-conosco">
         <h1 class="trabalhe-conosco__titulo">Trabalhe conosco</h1>
 
-        <form method="get" class="formulario">
-            <fieldset>
-                <div class="container-legend">
-                    <legend>Seus dados:</legend>
+        <div class="container-imagem-e-formulario">
+        <div class="imagem-abelha">
+        </div>
+            <form method="get" class="formulario">
+                <fieldset>
+                    <div class="container-legend">
+                        <legend>Seus dados:</legend>
+                    </div>
+
+                    <div class="container-formulario">
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Nome:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <input type="text" autofocus required>
+                            </div>
+                        </div>
+
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Telefone:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <input type="tel" placeholder="(xx) xxxxx-xxxx">
+                            </div>
+                        </div>
+
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Endereço:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <textarea name="endereco" id="" cols="30" rows="10" placeholder="Estado, cidade, bairro, rua, número (bloco apartamento)"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Experiência profissional:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <textarea name="experiencia-profissional" cols="30" rows="10" maxlength="300"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Formação:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Cursos realizados:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="container-label-input">
+                            <div class="container-label">
+                                <label>
+                                    Redes sociais:
+                                </label>
+                            </div>
+                            <div class="container-input">
+                                <textarea name="linkedin" maxlength="100" cols="30" rows="10" placeholder="https://exemplo/link.com"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="container-submit">
+                    <input type="submit" value="Enviar">
                 </div>
 
-                <div class="container-formulario">
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Nome:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <input type="text" autofocus>
-                        </div>
-                    </div>
-
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Telefone:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <input type="tel" placeholder="(xx) xxxxx-xxxx">
-                        </div>
-                    </div>
-
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Endereço:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <textarea name="endereco" id="" cols="30" rows="10"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Experiência profissional:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <textarea name="experiencia-profissional" cols="30" rows="10" maxlength="200" placeholder="Por gentileza, fazer um breve resumo."></textarea>
-                        </div>
-                    </div>
-
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Formação:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Cursos realizados:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="container-label-input">
-                        <div class="container-label">
-                            <label>
-                                Linkedin:
-                            </label>
-                        </div>
-                        <div class="container-input">
-                            <textarea name="linkedin" maxlength="100" cols="30" rows="10" placeholder="https://exemplo/link.com"></textarea>
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-
-            <div class="container-submit">
-                <input type="submit" value="Enviar">
-            </div>
-
-        </form>
+            </form>
+        </div>
     </main>
+
+    <footer class="rodape">
+        <div class="container-rodape">
+            <p>Criado por Joice Maciel Martins - Projeto final ElasNaTach (JA Brasil + IBM SkillsBuild)</p>
+            <p>2023 - Turma 04</p>
+            <p>Créditos sobre sessão "Apicultura": Livro "Criação de abelhas (apicultura) - Embrapa"</p>
+            <p>Sobre mim</p>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,9 @@
+.container-imagem-e-formulario {
+    width: 80%;
+    height: 60vh;
+    background-color: #fdfde9;
+    border-radius: 10px;
+    padding: 3rem;
+    box-shadow: 1px 1px 2px black;
+    display: flex;
+}

@@ -1,0 +1,14 @@
+legend {
+    text-align: center;
+    border-bottom: 1.5px solid black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-family: 'PPNeueWorld-regular';
+    letter-spacing: 3px;
+}
+
+@font-face {
+    font-family: 'PPNeueWorld-regular';
+    src: url(../../fonts/PPNeueWorld-Regular.otf);
+}

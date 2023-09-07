@@ -1,0 +1,30 @@
+input, textarea {
+    width: 95%;
+    padding: 5px;
+    border: 1.7px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"]{
+    width: 50%;
+    background-color: #f0d91f;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'GT-Eest-regular';
+}
+
+input[type="submit"]:hover {
+    outline: 2px solid #f0d91f;
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: 'GT-Eest-regular';
+    src: url(../../fonts/GT-Eesti-Text-Regular-Italic-Trial.woff2);
+}

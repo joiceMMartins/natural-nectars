@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+   background-color: #ffffff;
+}
