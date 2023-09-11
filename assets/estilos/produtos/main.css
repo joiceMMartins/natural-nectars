@@ -1,3 +1,9 @@
 main {
     padding: 8rem;
 }
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 2rem 1.8rem;
+    }
+}

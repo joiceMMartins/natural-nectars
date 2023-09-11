@@ -1,0 +1,7 @@
+.card-produto__imagem {
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
