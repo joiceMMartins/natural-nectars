@@ -1,0 +1,8 @@
+.img-flor-abelha {
+    width: 40%;
+    height: 80%;
+    background-image: url(../../imagens/abelha.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}

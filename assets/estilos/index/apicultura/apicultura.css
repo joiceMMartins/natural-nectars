@@ -2,4 +2,15 @@
     padding: 5rem;
     display: flex;
     height: 80vh;
+    background-color: #fde58a;
+}
+
+@media screen and (max-width: 767px) {
+    .apicultura {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
 }

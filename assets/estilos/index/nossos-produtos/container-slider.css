@@ -7,3 +7,9 @@
         align-items: center;
         justify-content: space-around;
 }
+
+@media screen and (max-width: 767px) {
+        .container-slider{
+                width: 96%;
+        }
+}

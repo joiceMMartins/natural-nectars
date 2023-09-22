@@ -1,9 +1,10 @@
 .nossos-produtos {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
     height: 100vh;
-    background-color: #550222;
+    background-color: #bc560a;
     padding-bottom: 2rem;
 }

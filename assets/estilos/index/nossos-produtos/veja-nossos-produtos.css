@@ -1,8 +1,20 @@
 .veja-nossos-produtos {
   width: 25%;
-  background-color: #fdfde9;
   padding: 1.5rem;
   border-radius: 100px;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(45deg, #fbd24e, #fabe25);
+  outline: 2px solid #fabe25;
+  box-sizing: border-box;
+}
+
+.veja-nossos-produtos:hover {
+  outline: 3px solid white;
+}
+
+@media screen and (max-width: 767px){
+  .veja-nossos-produtos {
+    width: 80%;
+  }
 }

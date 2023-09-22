@@ -1,6 +1,7 @@
 .menu-navegacao-lista__item {
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'GT-Eest-regular';
@@ -10,11 +11,17 @@
 .menu-navegacao-lista__item a {
     text-decoration: none;
     color: black;
+    width: fit-content;
 }
 
 .menu-navegacao-lista__item a:visited {
     text-decoration: none;
     color: black;
+}
+
+.menu-navegacao-lista__item:nth-child(4) {
+    background-image: linear-gradient(45deg, #fbd24e, #fabe25);
+    border-radius: 100px;
 }
 
 @font-face {

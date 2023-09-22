@@ -3,7 +3,7 @@
     letter-spacing: 3px;
     text-align: center;
     font-size: 6rem;
-    color: #fdfde9;
+    color: #fef3c7;
     text-shadow: 2px 3px 0px black;
 }
 
@@ -12,8 +12,8 @@
     src: url(../../fonts/PPNeueWorld-SemiCondensedUltrabold.otf);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .titulo-pagina {
-        font-size: 2rem;
+        font-size: 5rem;
     }
 }

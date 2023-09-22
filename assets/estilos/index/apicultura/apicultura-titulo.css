@@ -10,3 +10,9 @@
     font-family: 'PPNeueWorld-regular';
     src: url(../../../fonts/PPNeueWorld-Regular.otf);
 }
+
+@media screen and (max-width: 767px) {
+    .apicultura-titulo{
+        margin-top: 0;
+    }
+}

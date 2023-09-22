@@ -1,6 +1,14 @@
 .container-imagem-abelha {
-    width: 35%;
+    width: 43%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .container-imagem-abelha {
+        height: 30%;
+        margin-bottom: 1rem;
+        width: 60%;
+    }
 }

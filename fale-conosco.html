@@ -1,46 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilo cabeçalho -->
+    <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao-lista.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho-img.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao-lista__item.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/header.css">
+
+    <!-- Estilo main -->
+    <link rel="stylesheet" href="assets/estilos/fale-conosco/main.css">
+    <link rel="stylesheet" href="assets/estilos/fale-conosco/formulario-img.css">
+    <link rel="stylesheet" href="assets/estilos/fale-conosco/formulario.css">
+    <link rel="stylesheet" href="assets/estilos/fale-conosco/img-flor-abelha.css">
+    <link rel="stylesheet" href="assets/estilos/fale-conosco/body.css">
+
+    <!-- Estilo rodapé-->
+    <link rel="stylesheet" href="assets/estilos/rodape/rodape.css">
+    <link rel="stylesheet" href="assets/estilos/rodape/container-rodape.css">
+
+    <link rel="stylesheet" href="assets/estilos/root/root.css">
+
     <title>Fale conosco</title>
 </head>
-<body>
-    
-    <form action="get">
-        <fieldset>
-            <legend>Fale Conosco</legend>
-            <div>
-                <label for="nome">Nome:</label>
-            </div>
-            <div>
-                <input type="text" id="nome">
-            </div>
-    
-            <div>
-                <label for="telefone">Telefone:</label>
-            </div>
-            <div>
-                <input type="tel">
-            </div>
-    
-            <div>
-                <label for="email">Telefone:</label>
-            </div>
-            <div>
-                <input type="email" id="email">
-            </div>
-    
-            <div>
-                <label for="mensagem">Mensagem:</label>
-            </div>
-            <div>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-            </div>
-        </fieldset>
-    </form>
-    <br>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29384.57333603544!2d-43.238913103004!3d-22.9843919658492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd50ffe726191%3A0xbb0215da9c59a67b!2sIpanema%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1693594713054!5m2!1spt-BR!2sbr" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<body>
+
+    <header>
+        <nav class="menu-navegacao">
+            <img src="assets/imagens/bee.png" class="cabecalho-img">
+            <ul class="menu-navegacao-lista">
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="cliente.html">Cliente</a></li>
+                <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulario-img">
+            <form action="get" class="formulario">
+                <fieldset>
+                    <legend>Fale Conosco</legend>
+                    <div class="container-label-input">
+                        <div class="container-label">
+                            <label for="nome">Nome:</label>
+                        </div>
+                        <div class="container-input">
+                            <input type="text" id="nome">
+                        </div>
+                    </div>
+
+                    <div class="container-label-input">
+                        <div class="container-label">
+                            <label for="telefone">E-mail:</label>
+                        </div>
+                        <div class="container-input">
+                            <input type="tel">
+                        </div>
+                    </div>
+                    <div class="container-label-input">
+                        <div class="container-label">
+                            <label for="email">Telefone:</label>
+                        </div>
+                        <div class="container-input">
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+                    <div class="container-label-input">
+                        <div class="container-label">
+                            <label for="mensagem">Mensagem:</label>
+                        </div>
+                        <div class="container-input">
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="img-flor-abelha"></div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="container-rodape">
+            <p>Criado por Joice Maciel Martins - Projeto final ElasNaTach (JA Brasil + CCR + IBM SkillsBuild)</p>
+            <p>2023 - Turma 04</p>
+            <p>Créditos sobre sessão "Apicultura": Livro "Criação de abelhas (apicultura) - Embrapa"</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>

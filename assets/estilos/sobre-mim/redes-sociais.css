@@ -1,0 +1,9 @@
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.redes-sociais img {
+    width: 5%;
+    height: 5%;
+}

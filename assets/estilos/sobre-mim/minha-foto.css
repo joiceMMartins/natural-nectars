@@ -1,0 +1,10 @@
+.minha-foto {
+    width: 25%;
+    height: 55%;
+    border-radius: 100%;
+    background-image: url(../../imagens/beeswax-candle-3413350_1280.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}

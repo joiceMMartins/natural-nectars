@@ -9,3 +9,12 @@
     margin: 0;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 767px) {
+    .container-rodape{
+        width: 80%;
+    }
+    .container-rodape p {
+        text-align: center;
+    }
+}

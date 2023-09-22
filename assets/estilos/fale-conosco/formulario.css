@@ -1,0 +1,42 @@
+.formulario {
+    width: 60%;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container-label-input {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.container-label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.container-input {
+    width: 70%;
+}
+
+input, textarea {
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    padding: 0.3rem;
+}
+
+textarea {
+    resize: none;
+}

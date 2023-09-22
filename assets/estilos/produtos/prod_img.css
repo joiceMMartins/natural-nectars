@@ -48,23 +48,6 @@
     background-position: left;
 }
 
-.prod7-img {
-    background-image: url(../../imagens/produtos/fumigador-grande1.jpg);
-}
-
-.prod7-img:hover {
-    background-image: url(../../imagens/produtos/fumigador-grande2.jpg);
-    background-position: left;
-}
-
-.prod6-img {
-    background-image: url(../../imagens/produtos/fumigador-grande1.jpg);
-}
-
-.prod6-img:hover {
-    background-image: url(../../imagens/produtos/fumigador-grande2.jpg);
-    background-position: left;
-}
 .prod11-img {
     background-image: url(../../imagens/produtos/cera-abelha1.jpg);
 }

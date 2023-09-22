@@ -2,7 +2,7 @@
     width: 32px;
     height: 3.3px;
     border-radius: 100px;
-    background: black;
+    background: #000;
     margin: 8px;
     transition: 0.3s;
   }
@@ -16,7 +16,7 @@
     cursor: pointer;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     body {
       overflow-x:hidden;
     }
