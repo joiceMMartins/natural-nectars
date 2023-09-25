@@ -3,3 +3,15 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+    .container-label {
+        width: 100%;
+    }
+
+    .container-label label {
+        width: 100%;
+        text-align: center;
+        margin-bottom: .3rem;
+    }
+}

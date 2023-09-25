@@ -1,7 +1,7 @@
 input, textarea {
     width: 95%;
     padding: 5px;
-    border: 1.7px solid black;
+    border: 1px solid #7b7171;
     border-radius: 5px;
 }
 
@@ -11,17 +11,19 @@ textarea {
 
 input[type="submit"]{
     width: 50%;
-    background-color: #f0d91f;
+    background-image: linear-gradient(45deg, #fbd24e, #fabe25);
     border: none;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 100px;
     text-transform: uppercase;
+    color: #fff;
     font-family: 'GT-Eest-regular';
 }
 
 input[type="submit"]:hover {
-    outline: 2px solid #f0d91f;
+    outline: 2px solid #7b7171;
     background-color: transparent;
+    color: #7b7171;
 }
 
 @font-face {

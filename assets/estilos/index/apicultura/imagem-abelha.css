@@ -3,12 +3,12 @@
     height: 80%;
     background-image: url(../../../imagens/colmeia.png);
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media screen and (max-width: 767px) {
     .imagem-abelha{
-        width: 100%;
         height: 100%;
     }
 }

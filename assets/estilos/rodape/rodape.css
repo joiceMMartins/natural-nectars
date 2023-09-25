@@ -5,3 +5,9 @@
     align-items: center;
     background-color: #fde58a;
 }
+
+@media screen and (max-width: 767px) {
+    .rodape {
+        height: 25vh;
+    }
+}

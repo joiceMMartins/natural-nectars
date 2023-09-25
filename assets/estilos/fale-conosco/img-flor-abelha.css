@@ -1,8 +1,14 @@
 .img-flor-abelha {
     width: 40%;
     height: 80%;
-    background-image: url(../../imagens/abelha.png);
+    background-image: url(../../imagens/bee\ \(2\).png);
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+    .img-flor-abelha {
+        display: none;
+    }
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
     <!-- Estilo cabeçalho -->
     <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho.css">
@@ -33,11 +33,11 @@
 
     <header>
         <nav class="menu-navegacao">
-            <img src="assets/imagens/bee.png" class="cabecalho-img">
+            <a href="index.html"><img src="assets/imagens/bee.png" class="cabecalho-img"></a>
             <ul class="menu-navegacao-lista">
-                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a>conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
-                <li class="menu-navegacao-lista__item"><a href="cliente.html">Cliente</a></li>
+                <li class="menu-navegacao-lista__item"><a href="sobre-mim.html">Sobre mim</a></li>
                 <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
             </ul>
         </nav>
@@ -53,7 +53,7 @@
                             <label for="nome">Nome:</label>
                         </div>
                         <div class="container-input">
-                            <input type="text" id="nome">
+                            <input type="text" id="nome" autofocus>
                         </div>
                     </div>
 
@@ -82,6 +82,9 @@
                         </div>
                     </div>
                 </fieldset>
+                <div class="div-submit">
+                    <input type="submit">
+                </div>
             </form>
             <div class="img-flor-abelha"></div>
         </div>
@@ -89,9 +92,9 @@
 
     <footer class="rodape">
         <div class="container-rodape">
-            <p>Criado por Joice Maciel Martins - Projeto final ElasNaTach (JA Brasil + CCR + IBM SkillsBuild)</p>
+            <p>&copy; Criado por Joice Maciel Martins</p>
+            <p>Projeto final ElasNaTech2 (JA Brasil + CCR + IBM SkillsBuild)</p>
             <p>2023 - Turma 04</p>
-            <p>Créditos sobre sessão "Apicultura": Livro "Criação de abelhas (apicultura) - Embrapa"</p>
         </div>
     </footer>
 

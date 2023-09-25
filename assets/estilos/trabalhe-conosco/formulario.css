@@ -1,5 +1,4 @@
 .formulario {
     flex-grow: 1;
-    overflow-y: scroll;
     padding-bottom: 1rem;
 }

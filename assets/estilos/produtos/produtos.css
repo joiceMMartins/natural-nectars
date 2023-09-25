@@ -3,9 +3,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
+    width: 80%;
+    padding: 2rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .produtos {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="bt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
+    <link rel="stylesheet" href="assets/estilos/root/root.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/body.css">
 
     <!-- Estilo cabeçalho -->
@@ -21,21 +23,30 @@
     <!-- Estilo produtos-->
     <link rel="stylesheet" href="assets/estilos/produtos/produtos.css">
     <link rel="stylesheet" href="assets/estilos/produtos/card-produto__imagem.css">
-
+    <link rel="stylesheet" href="assets/estilos/produtos/body.css">
+    <link rel="stylesheet" href="assets/estilos/produtos/card-produto.css">
     <link rel="stylesheet" href="assets/estilos/produtos/card-produto__botao.css">
     <link rel="stylesheet" href="assets/estilos/produtos/prod_img.css">
-    
+
     <title>Produtos</title>
 </head>
+
 <body>
 
     <header>
         <nav class="menu-navegacao">
-            <img src="assets/imagens/bee.png" class="cabecalho-img">
+            <a href="index.html"><img src="assets/imagens/bee.png" class="cabecalho-img"></a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
             <ul class="menu-navegacao-lista">
-                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a>conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
-                <li class="menu-navegacao-lista__item"><a href="cliente.html">Cliente</a></li>
+                <li class="menu-navegacao-lista__item"><a href="sobre-mim.html">Sobre mim</a></li>
                 <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
             </ul>
         </nav>
@@ -50,7 +61,8 @@
                 <div class="card-produto__imagem prod1-img">
                 </div>
                 <h2 class="card-produto__titulo">Molde para vela</h2>
-                <p class="card-produto__descricao">Molde de resina epóxi de silicone para fabricação de velas. Medidas: 7.6cmX7.6cm.</p>
+                <p class="card-produto__descricao">Molde de resina epóxi de silicone para fabricação de velas.</p>
+                <p>Medidas: 7.6cmX7.6cm.</p>
                 <p class="card-produto__preco">R$59,90</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -59,7 +71,8 @@
                 <div class="card-produto__imagem prod2-img">
                 </div>
                 <h2 class="card-produto__titulo">Recipiente para mel</h2>
-                <p class="card-produto__descricao">Recipiente de vidro para mel, formato hexagonal - 380ml. Medidas: 9.5cmX10.5cm (tampa com 5cm de largura).</p>
+                <p class="card-produto__descricao">Recipiente de vidro para mel, formato hexagonal - 380ml.</p>
+                <p>Medidas: 9.5cmX10.5cm (tampa com 5cm de largura).</p>
                 <p class="card-produto__preco">R$48.90</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -68,7 +81,8 @@
                 <div class="card-produto__imagem prod3-img">
                 </div>
                 <h2 class="card-produto__titulo">Vela de cera de abelha</h2>
-                <p class="card-produto__descricao">Vela de cera de abelha 100% natural com delicado aroma de mel. 190g.</p>
+                <p class="card-produto__descricao">Vela de cera de abelha 100% natural com delicado aroma de mel. 190g.
+                </p>
                 <p class="card-produto__preco">R$36,00</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -77,7 +91,9 @@
                 <div class="card-produto__imagem prod4-img">
                 </div>
                 <h2 class="card-produto__titulo">Pote para mel</h2>
-                <p class="card-produto__descricao">Recipiente para mel, vidro transparente com tampa em formato de colméia. Medidas: 10cmX13.5cm.</p>
+                <p class="card-produto__descricao">Recipiente para mel, vidro transparente com tampa em formato de
+                    colméia.</p>
+                <p>Medidas: 10cmX13.5cm.</p>
                 <p class="card-produto__preco">R$65,50</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -85,8 +101,9 @@
             <div class="card-produto">
                 <div class="card-produto__imagem prod5-img">
                 </div>
-                <h2 class="card-produto__titulo">Emissor elétrico de fumaça</h2>
-                <p class="card-produto__descricao">Emissor elétrico de fumaça de abelha. O aerador de aquecimento pode fornecer melhor fluxo de ar e queimar por mais tempo.</p>
+                <h2 class="card-produto__titulo">Emissor elétrico</h2>
+                <p class="card-produto__descricao">Emissor elétrico de fumaça de abelha. O aerador de aquecimento pode
+                    fornecer melhor fluxo de ar e queimar por mais tempo.</p>
                 <p class="card-produto__preco">R$293,00</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -112,8 +129,10 @@
             <div class="card-produto">
                 <div class="card-produto__imagem prod8-img">
                 </div>
-                <h2 class="card-produto__titulo">Bandeja coletora de pólen</h2>
-                <p class="card-produto__descricao">Bandeja de plástico coletora de pólen, removivel e com bandeja ventilada. Medidas: 39cmX14cm com 10cm de altura.</p>
+                <h2 class="card-produto__titulo">Bandeja para pólen</h2>
+                <p class="card-produto__descricao">Bandeja de plástico coletora de pólen, removivel e com bandeja
+                    ventilada.</p>
+                <p>Medidas: 39cmX14cm</p>
                 <p class="card-produto__preco">R$150,00</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -122,7 +141,8 @@
                 <div class="card-produto__imagem prod9-img">
                 </div>
                 <h2 class="card-produto__titulo">Pote de cerâmica</h2>
-                <p class="card-produto__descricao">Pote de cerâmica para mel com colher de cerâmica, branco de 300ml.</p>
+                <p class="card-produto__descricao">Pote de cerâmica para mel com colher de cerâmica, branco de 300ml.
+                </p>
                 <p class="card-produto__preco">R$115,00</p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
@@ -153,14 +173,14 @@
                 <p class="card-produto__preco"></p>
                 <a class="card-produto__botao">Compre agora</a>
             </div>
-
-
         </section>
     </main>
 
     <footer>
 
     </footer>
-    
+
+    <script src="javascript/menu-mobile.js"></script>
 </body>
+
 </html>
