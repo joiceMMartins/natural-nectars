@@ -28,6 +28,8 @@
 }
 
 .prod4-img:hover {
+    background-color: white;
+    background-size: contain;
     background-image: url(../../imagens/produtos/pote-colmeia2.jpg);
 }
 
@@ -40,6 +42,8 @@
 }
 
 .prod6-img {
+    background-size: contain;
+    background-color: white;
     background-image: url(../../imagens/produtos/fumigador-grande1.jpg);
 }
 
@@ -48,12 +52,64 @@
     background-position: left;
 }
 
+.prod7-img {
+    background-image: url(../../imagens/produtos/polen1.jpg);
+}
+
+.prod7-img:hover {
+    background-image: url(../../imagens/produtos/polen2.jpg);
+    background-size: contain;
+    background-color: white;
+}
+
+.prod8-img {
+    background-size: contain;
+    background-color: white;
+    background-image: url(../../imagens/produtos/bandeja-polen1.jpg);
+}
+
+.prod8-img:hover {
+    background-image: url(../../imagens/produtos/bandeja-polen2.jpg);
+}
+
+.prod9-img {
+    background-size: contain;
+    background-color: white;
+    background-image: url(../../imagens/produtos/pote-ceramica1.jpg);
+}
+
+.prod9-img:hover {
+    background-image: url(../../imagens/produtos/pote-ceramica2.jpg);
+}
+
+
+.prod10-img {
+    background-size: contain;
+    background-color: white;
+    background-image: url(../../imagens/produtos/macacao-apicultor1.jpg);
+}
+
+.prod10-img:hover {
+    background-image: url(../../imagens/produtos/macacao-apicultor2.jpg);
+}
+
 .prod11-img {
+    background-position: right;
     background-image: url(../../imagens/produtos/cera-abelha1.jpg);
 }
 
 .prod11-img:hover {
     background-image: url(../../imagens/produtos/cera-abelha2.jpg);
+}
+
+.prod12-img {
+    background-size: contain;
+    background-color: white;
+    background-image: url(../../imagens/produtos/pote-gres1.jpg);
+}
+
+.prod12-img:hover {
+    background-image: url(../../imagens/produtos/pote-gres2.jpg);
 }
 
 

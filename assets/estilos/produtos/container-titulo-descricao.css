@@ -1,0 +1,11 @@
+.container-titulo-descricao {
+    padding: 0.5rem 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-titulo-descricao p {
+    color: #a26c06;
+    font-family: 'Inclusive Sans', sans-serif;
+}
