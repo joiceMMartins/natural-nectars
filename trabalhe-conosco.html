@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
+    <!-- Ícone da página -->
+    <link rel="shortcut icon" href="assets/imagens/bee.png">
+
     <!-- Estilo body -->
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/body.css">
     <link rel="stylesheet" href="assets/estilos/root/root.css">
@@ -19,18 +22,21 @@
     <link rel="stylesheet" href="assets/estilos/cabecalho/titulo-pagina.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/header.css">
 
+    <!-- Estilo mobile menu -->
+    <link rel="stylesheet" href="assets/estilos/cabecalho/mobile-menu.css">
+
     <!-- Estilo container-imagem-e-formulario -->
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/formulario.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/main.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-imagem-e-formulario.css">
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/imagem-abelha.css">   
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/fieldset.css">  
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/legend.css">  
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-formulario.css">  
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/imagem-abelha.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/fieldset.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/legend.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-formulario.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-label-input.css">
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-label.css">  
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-input.css"> 
-    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/input-textarea.css"> 
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-label.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-input.css">
+    <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/input-textarea.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/container-submit.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/trabalhe-conosco__titulo.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/label.css">
@@ -38,7 +44,6 @@
     <!-- Estilo rodapé-->
     <link rel="stylesheet" href="assets/estilos/rodape/rodape.css">
     <link rel="stylesheet" href="assets/estilos/rodape/container-rodape.css">
-
 
     <title>Trabalhe conosco</title>
 
@@ -49,8 +54,15 @@
     <header>
         <nav class="menu-navegacao">
             <a href="index.html"><img src="assets/imagens/bee.png" class="cabecalho-img"></a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
             <ul class="menu-navegacao-lista">
-                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a>conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a href="trabalhe-conosco.html">conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="sobre-mim.html">Sobre mim</a></li>
                 <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
@@ -98,7 +110,8 @@
                                 </label>
                             </div>
                             <div class="container-input">
-                                <textarea name="endereco" id="" cols="30" rows="10" placeholder="Estado, cidade, bairro, rua, número (bloco apartamento)"></textarea>
+                                <textarea name="endereco" id="" cols="30" rows="10"
+                                    placeholder="Estado, cidade, bairro, rua, número (bloco apartamento)"></textarea>
                             </div>
                         </div>
 
@@ -109,7 +122,8 @@
                                 </label>
                             </div>
                             <div class="container-input">
-                                <textarea name="experiencia-profissional" cols="30" rows="10" maxlength="300"></textarea>
+                                <textarea name="experiencia-profissional" cols="30" rows="10"
+                                    maxlength="300"></textarea>
                             </div>
                         </div>
 
@@ -142,7 +156,8 @@
                                 </label>
                             </div>
                             <div class="container-input">
-                                <textarea name="linkedin" maxlength="100" cols="30" rows="10" placeholder="https://exemplo/link.com"></textarea>
+                                <textarea name="linkedin" maxlength="100" cols="30" rows="10"
+                                    placeholder="https://exemplo/link.com"></textarea>
                             </div>
                         </div>
                     </div>
@@ -163,6 +178,8 @@
             <p>2023 - Turma 04</p>
         </div>
     </footer>
+
+    <script src="javascript/menu-mobile.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,8 @@
     letter-spacing: 5px;
     font-size: 3rem;
     text-align: center;
-    border-bottom: 2px dashed black;
+    border-bottom: 2px dashed #724611;
+    color: #724611;
 }
 
 @font-face {

@@ -57,7 +57,7 @@ main {
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background: #fff;
+  background: #000;
   margin: 8px;
   transition: 0.3s;
 }

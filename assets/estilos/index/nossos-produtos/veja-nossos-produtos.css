@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   background-image: linear-gradient(45deg, #fbd24e, #fabe25);
-  outline: 2px solid #fabe25;
+  outline: 1.5px solid #fff;
   box-sizing: border-box;
 }
 

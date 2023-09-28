@@ -3,9 +3,12 @@
         background-color: #fdfde9;
         border-radius: 10px;
         width: 70%;
-        height: 50%;
+        height: 60%;
         align-items: center;
         justify-content: space-around;
+        background-image: url(../../../imagens/apiary-1866740_1280.jpg);
+        background-size: cover;
+        background-position: center;
 }
 
 @media screen and (max-width: 767px) {

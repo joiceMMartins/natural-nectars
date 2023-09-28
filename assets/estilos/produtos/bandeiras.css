@@ -1,0 +1,22 @@
+.bandeiras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandeiras > p {
+    margin-bottom: 0;
+}
+
+.bandeiras img {
+    width: 30%;
+}
+
+@media (max-width: 640px) {
+    .bandeiras {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 48px;
+    }
+}

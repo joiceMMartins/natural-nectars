@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
+    <!-- Ícone da página -->
+    <link rel="shortcut icon" href="assets/imagens/bee.png">
+
     <!-- Estilo cabeçalho -->
     <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao.css">
     <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao-lista.css">
     <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho-img.css">
     <link rel="stylesheet" href="assets/estilos/cabecalho/menu-navegacao-lista__item.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/container-titulo.css">
+    <link rel="stylesheet" href="assets/estilos/cabecalho/titulo-pagina.css">
     <link rel="stylesheet" href="assets/estilos/trabalhe-conosco/header.css">
+    <link rel="stylesheet" href="assets/estilo.css">
+
+    <!-- Estilo mobile menu -->
+    <link rel="stylesheet" href="assets/estilos/cabecalho/mobile-menu.css">
 
     <!-- Estilo main -->
     <link rel="stylesheet" href="assets/estilos/fale-conosco/main.css">
@@ -31,11 +40,19 @@
 
 <body>
 
+
     <header>
         <nav class="menu-navegacao">
             <a href="index.html"><img src="assets/imagens/bee.png" class="cabecalho-img"></a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
             <ul class="menu-navegacao-lista">
-                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a>conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a href="trabalhe-conosco.html">conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="sobre-mim.html">Sobre mim</a></li>
                 <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
@@ -98,6 +115,7 @@
         </div>
     </footer>
 
+    <script src="javascript/menu-mobile.js"></script>
 </body>
 
 </html>
