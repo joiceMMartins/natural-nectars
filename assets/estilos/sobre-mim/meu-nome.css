@@ -1,0 +1,16 @@
+.meu-nome {
+    font-size: 3.2rem;
+    margin: 0;
+    border-bottom: 1.5px solid #432405;
+    box-shadow: 0 1px #cc9902;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #432405;
+    text-shadow: 1px 1.5px 1px #cc9902;
+}
+
+@media screen and (max-width: 767px) {
+    .meu-nome {
+        font-size: 2rem;
+    }
+}

@@ -1,9 +1,11 @@
 .vantagens-titulo {
     color: #724611;
+    font-family: "Oswald", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
     .vantagens-titulo{
         margin-bottom: 0;
+        text-align: center;
     }
 }

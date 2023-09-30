@@ -1,0 +1,11 @@
+.container-foto-nome {
+    display: flex;
+    height: 35%;
+}
+
+@media screen and (max-width: 767px) {
+    .container-foto-nome {
+        flex-direction: column;
+        align-items: center;
+    }
+}

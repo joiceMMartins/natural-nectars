@@ -1,15 +1,11 @@
 legend {
     text-align: center;
     border-bottom: 1px solid #7b7171;
+    color: #724611;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-weight: bold;
-    font-family: 'PPNeueWorld-regular';
+    font-family: "Oswald", sans-serif;
     letter-spacing: 3px;
     font-size: 1.2rem;
-}
-
-@font-face {
-    font-family: 'PPNeueWorld-regular';
-    src: url(../../fonts/PPNeueWorld-Regular.otf);
 }

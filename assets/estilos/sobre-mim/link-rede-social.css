@@ -1,0 +1,19 @@
+.redes-sociais {
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redes-sociais a {
+    width: calc(100% / 3);
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais a img {
+    height: 100%;
+    filter: drop-shadow(2px 2px #cc9902);
+}

@@ -6,11 +6,18 @@ fieldset {
     border: none;
 }
 
+label {
+    font-family: "Inclusive Sans", sans-serif;
+    color: #a26c06;
+}
+
 legend {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid black;
     width: 100%;
+    font-family: "Oswald", sans-serif;
+    color: #724611;
 }
 
 .container-label-input {
@@ -91,15 +98,14 @@ input[type="submit"]:hover {
         text-align: center;
     }
 
-    .container-input, .container-label, .container-label label {
+    .container-input,
+    .container-label,
+    .container-label label {
         width: 100%;
     }
 
     .container-label label {
         text-align: center;
-        margin-bottom: .3rem;
+        margin-bottom: 0.3rem;
     }
-
-
 }
-

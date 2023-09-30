@@ -1,0 +1,13 @@
+.container-minha-foto {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .container-minha-foto {
+        width: 60%;
+        height: 100%;
+    }
+}

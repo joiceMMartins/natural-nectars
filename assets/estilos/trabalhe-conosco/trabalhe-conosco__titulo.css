@@ -1,3 +1,6 @@
 .trabalhe-conosco__titulo {
-    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #432405;
+    text-shadow: 1px 1.5px 1px #cc9902;
 }

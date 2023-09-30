@@ -8,6 +8,7 @@
 .container-rodape p {
     margin: 0;
     margin-top: 5px;
+    font-family: 'Inclusive Sans', sans-serif;
 }
 
 @media screen and (max-width: 767px) {

@@ -3,10 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
     <!-- Ícone da página -->
     <link rel="shortcut icon" href="assets/imagens/bee.png">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Oswald:wght@500&family=Playfair+Display:wght@900&display=swap"
+        rel="stylesheet">
 
     <!-- Estilo cabeçalho -->
     <link rel="stylesheet" href="assets/estilos/cabecalho/cabecalho.css">
@@ -20,12 +27,17 @@
     <link rel="stylesheet" href="assets/estilos/cabecalho/mobile-menu.css">
 
     <!-- Estilo main -->
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/body.css">
     <link rel="stylesheet" href="assets/estilos/sobre-mim/main.css">
-    <link rel="stylesheet" href="assets/estilos/sobre-mim/redes-sociais.css">
     <link rel="stylesheet" href="assets/estilos/sobre-mim/sobre-mim.css">
     <link rel="stylesheet" href="assets/estilos/sobre-mim/minha-foto.css">
-    <link rel="stylesheet" href="assets/estilos/sobre-mim/container-sobre-mim.css">
-    <link rel="stylesheet" href="assets/estilos/sobre-mim/titulo-e-descricao.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/container-foto-nome.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/container-minha-foto.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/container-meu-nome.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/meu-nome.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/sobre-mim__texto.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/redes-sociais.css">
+    <link rel="stylesheet" href="assets/estilos/sobre-mim/link-rede-social.css">
 
     <!-- Estilo rodapé-->
     <link rel="stylesheet" href="assets/estilos/rodape/rodape.css">
@@ -51,7 +63,7 @@
             </div>
 
             <ul class="menu-navegacao-lista">
-                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe</a><a href="trabalhe-conosco.html">conosco</a></li>
+                <li class="menu-navegacao-lista__item"><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="fale-conosco.html">Fale conosco</a></li>
                 <li class="menu-navegacao-lista__item"><a href="sobre-mim.html">Sobre mim</a></li>
                 <li class="menu-navegacao-lista__item"><a href="produtos.html">Produtos</a></li>
@@ -61,13 +73,42 @@
 
     <main>
         <section class="sobre-mim">
-            
+            <div class="container-foto-nome">
+                <div class="container-minha-foto">
+                    <div class="minha-foto">
+                    </div>
+                </div>
+                <div class="container-meu-nome">
+                    <h1 class="meu-nome">
+                        Joice Maciel Martins
+                    </h1>
+                </div>
+            </div>
+            <div class="sobre-mim__texto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non vehicula augue, sit amet
+                    dapibus nibh. Mauris gravida, mi eu mollis vestibulum, odio neque convallis massa, id scelerisque
+                    nibh sem at mauris. Proin viverra luctus venenatis. Etiam ac tellus scelerisque, molestie orci sed,
+                    tincidunt est. Suspendisse potenti. Phasellus lacus mauris, tincidunt ut elit vehicula, elementum
+                    ornare mauris. Nullam tempor arcu non faucibus sagittis. Nam ut dictum nulla. Quisque pellentesque
+                    nisi felis, ut pulvinar ipsum sodales eu. Aliquam porta enim sed tempus tincidunt. Praesent lacinia
+                    ut mi quis elementum. Sed tempus sagittis sapien. Quisque eleifend egestas nunc, in sagittis risus
+                    luctus et.
+                </p>
+            </div>
+            <div class="redes-sociais">
+                <a href="#" class="link-rede-social"><img src="assets/imagens/icons/github.png" alt="logo github"></a>
+                <a href="#" class="link-rede-social"><img src="assets/imagens/icons/linkedin.png"
+                        alt="logo linkedin"></a>
+                <a href="#" class="link-rede-social"><img src="assets/imagens/icons/discord.png" alt="logo discord"></a>
+            </div>
         </section>
     </main>
 
     <footer class="rodape">
         <div class="container-rodape">
-            <p>Criado por Joice Maciel Martins &copy; Projeto final ElasNaTech2 (JA Brasil + CCR + IBM SkillsBuild)</p>
+            <p>&copy; Criado por Joice Maciel Martins</p>
+            <p>Projeto final ElasNaTech2 - JA Brasil + CCR + IBM SkillsBuild</p>
             <p>2023 - Turma 04</p>
         </div>
     </footer>

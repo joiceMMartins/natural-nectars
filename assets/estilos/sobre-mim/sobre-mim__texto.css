@@ -1,0 +1,19 @@
+.sobre-mim__texto {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 4rem;
+}
+
+.sobre-mim__texto p {
+    font-family: 'Inclusive Sans', sans-serif;
+    color: #a26c06;
+}
+
+@media screen and (max-width: 767px) {
+    .sobre-mim__texto {
+        height: 50%;
+    }
+}

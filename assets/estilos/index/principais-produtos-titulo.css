@@ -1,5 +1,6 @@
 .principais-produtos-titulo {
     color: #724611;
+    font-family: "Oswald", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
