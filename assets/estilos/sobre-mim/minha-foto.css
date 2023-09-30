@@ -7,10 +7,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
-    filter: drop-shadow(2px 3px #cc9902);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px){
+    .minha-foto {
+        width: 70%;
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .minha-foto {
         width: 50%;
         height: 90%;

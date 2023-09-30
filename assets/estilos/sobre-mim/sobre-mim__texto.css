@@ -12,7 +12,14 @@
     color: #a26c06;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px){
+    .sobre-mim__texto {
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .sobre-mim__texto {
         height: 50%;
     }

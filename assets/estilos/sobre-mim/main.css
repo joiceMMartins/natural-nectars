@@ -6,3 +6,9 @@ main {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 480px){
+    main {
+        padding: 3rem 0;
+    }
+}
