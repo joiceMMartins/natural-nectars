@@ -7,8 +7,8 @@ main {
     justify-content: center;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     main {
-        padding: 3rem 0;
+        padding: 0.5rem 0;
     }
 }

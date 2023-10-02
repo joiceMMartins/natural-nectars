@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 480px){
     .sobre-mim__texto {
-        padding: 0 1rem;
+        padding: 0 0.5rem;
         text-align: center;
     }
 }
