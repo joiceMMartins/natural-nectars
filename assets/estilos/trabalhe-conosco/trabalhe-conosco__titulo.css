@@ -4,3 +4,9 @@
     color: #432405;
     text-shadow: 1px 1.5px 1px #cc9902;
 }
+
+@media screen and (max-width: 767px){
+    .trabalhe-conosco__titulo {
+        font-size: 2rem;
+    }
+}
